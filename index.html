@@ -4,183 +4,64 @@
     <title>Diego Torres-Barajas</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </head>
+  
+  <body style="font-family: Arial, sans-serif; max-width: 900px; margin: auto;">
+    <!-- Header -->
+    <h1>Diego Torres-Barajas</h1>
+    <p>Undergraduate Student in Applied Math and Optics</p>
+    <img src="images/profile.jpg" alt="Profile Image" style="display: block; margin: auto; width: 50%; height: auto;">
 
-  <body>
+    <!-- About Me -->
+    <h2>About Me</h2>
+    <p>
+      I am an undergraduate at the University of Arizona in applied math with a minor in optics. 
+      I'm currently researching in the <a href="https://qomlab.optics.arizona.edu/">Quantum Optomechanics Lab</a> 
+      and the <a href="https://wp.optics.arizona.edu/melkabbash/">Quantum Photonics and Nanophotonics Group</a> for my honors thesis, focused on guided mode resonance devices. 
+      Additionally, I am an R&D intern at <a href="https://www.fringemetrology.com/">Fringe Metrology</a>, working on rapid-scanning metrology systems for radio telescopes.
+    </p>
 
-<!-- Navigation bar -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand p-3" href="#">Diego</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-targer="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav">
-				<a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link" href="#aboutme">About Me</a>
-				<a class="nav-item nav-link" href="#projects">Projects</a>
-				<a class="nav-item nav-link" href="#contact">Contact</a>
-			</div>
-		  </div>
-	</nav>
-	
-<!-- Home -->
-	<div class="container" id="home">
-		<h2>I am</h2> 
-		<h1 class="display-4">Diego Torres-Barajas</h1>
-		<h3><small class="text-body-secondary">Undergraduate Student in Applied Math and Optics</small></h3>
-		<img src="images/profile.jpg" class="rounded mx-auto d-block" width="50%" height="50%">
-	</div>
-
-<!-- About Me -->
-<div class="container p-2 bg-opacity-25" id="aboutme" style="margin-top:15px"> 
-	<p class="mx-auto lead border border-dark border-3 rounded p-4" style="width: 75%">I am an undergraduate at the University of Arizona in the 
-		applied math program with a minor in optics. I am currently an undergradute researcher at the <a href="https://qomlab.optics.arizona.edu/">Quantum Optomechanics Lab</a> 
-		and <a>Quantum Photonics and Nanophotonics Group</a> working on my honors thesis on modeling and testing of a guided mode resonance device. Also, I am a research and development
-		intern at <a href="https://www.fringemetrology.com/">Fringe Metrology</a> building a metrology system focused on rapid-scanning solutions for radio telescopes. In the past, I've been involved at the Steward Observatory
-		Solar Lab working on radio telescope manufacturing and the <a href="https://uasal.github.io/">University of Arizona Space Astrophysics Lab</a> working in polarization characterization.
-	</p>
-</div>
-
-<!-- Projects -->
-<div class="container" id="projects"> 
-	<h1>Projects</h1>
-	<p>
-		Welcome to my projects portfolio! Here, you’ll find a collection of the work I’ve been passionate about throughout my 
-		academic and professional journey. These projects span across various domains, including metrology, polarization, photonics,  
-		and sensing.
-	</p>
-	<p>
-		Each project showcases a unique challenge I’ve tackled, whether it’s developing advanced metrology systems using LiDAR technology, 
-		designing guided-mode resonance devices for quantum applications, or building a radio telescope. 
-		My work is driven by a deep curiosity and a desire to solve complex problems, always aiming to contribute meaningful advancements to the field.
-	</p>
-	Feel free to explore these projects, which highlight my technical expertise, problem-solving abilities, and dedication to research. 
-	Whether through hands-on experimentation or detailed simulations, these experiences have honed my skills and prepared me for future 
-	challenges in graduate studies and beyond.
-	<p>
-
-	</p>
-
-	<div class="row row-cols-1 ms-5 me-5">
-		<div class="col p-3">
-			<div class="border border-3 p-3">
-				<h5 class="text-center">FMCW LiDAR Metrology System</h5>
-				<p class="mt-3">
-					As an R&D intern, I led a testing and designing project of a new metrology tools
-					using an accurate FMCW LiDAR for rapid-scanning methods on big radio dishes for the Next Generation Very
-					Large Array (ngVLA) radio telescopes. A positive proof-of-concept of this project can push this project into a SBIR Phase II
-					for further development. As part of this work I've pushed the limits of the sensor and designed a complete system that includes
-					a dynamical focus and beam steering.
-				</p>
-				<ul class="mb-4">
-					<li><b>Skills:</b> Optical Systems, Zemax, Scripting, Data Analysis</li>
-				</ul>
-				<p class="blockquote-footer">Supervised by Dr. Joel Berkson</p>
-			</div>
-		</div>
-		<div class="col p-3">
-			<img src="images/lidar.jpg" class="mx-auto d-block text-center img-fluid" width="35%" height="35%">	
-		</div>
-		<div class="col p-3">
-			<div class="border border-3 p-3">
-				<h5 class="text-center">Simulation and Modeling of Guided Mode Resonance Device</h5>
-				<p class="mt-3 mb-4">
-					This academic year, I am undertaking an honors thesis project focusing on enhancing the precision and sensitivity 
-					of rotation sensors through the innovative use of silicon nitride-based GMR devices. This work involves the 
-					rigorous design, simulation, and modeling of these devices to detect rotational movements with high accuracy, 
-					crucial for applications in nanomechanical systems. Expected to culminate next spring, this project not only 
-					fulfills my thesis requirement but also aims to set new 
-					standards in optical sensor technology, pushing the boundaries of current capabilities in rotation sensing.
-				</p>
-				<p class="blockquote-footer">Advised by Dr. Dalziel Wilson & Dr. Mohamed ElKabbash</p>
-			</div>
-		</div>
-		<div class="col p-3">
-			<img src="images/gmr_schematics.png" class="mx-auto d-block text-center img-fluid" width="35%" height="35%">	
-		</div>
-		<div class="col p-3">
-			<div class="border border-3 p-3">
-				<h5 class="text-center">Radio Telescope Manufacturing</h5>
-				<p>
-					As part of a collaborative team, I contributed to the construction of a radio telescope, focusing on precision 
-					engineering to support astronomical research. My responsibilities included adjusting molds to sub-40 micron accuracy, 
-					analyzing thermoforming processes using MATLAB to optimize the shaping of aluminum panels, and advancing an automation project that 
-					integrated a PID-controlled DC motor for precise mold adjustments. This work not only advanced the assembly and functionality of the 
-					telescope but also demonstrated potential for future enhancements in radio astronomy infrastructure. Although I've stopped working in this project
-					this past August, I am excited about its fulfillment this fall!
-				</p>
-				<ul class="mb-4">
-					<li><b>Skills:</b> CAD, MATLAB, Control Systems, Arduino, Scripting</li>
-				</ul>
-				<p class="blockquote-footer">Advised by Dr. Justin Hyatt & Dr. Daewook Kim</p>
-
-				<div class="d-grid gap-2 d-md-flex justify-content-md-end">
-					<a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12677/126770J/Radio-telescope-manufacturing-with-adaptive-aluminum-thermoforming-and-fringe-projection/10.1117/12.2676306.short?webSyncID=bba61c5c-3e63-c005-4518-8508dda75a7e&sessionGUID=ceedb311-cad6-3993-22ca-118c13565e64#_=_">
-					<button type="button" class="btn btn-dark mt-2">SPIE Presentation</button>
-					</a>
-					</div>
-			</div>
-		</div>
-		<div class="col p-3">
-			<img src="images/port_w_panel.png" class="mx-auto d-block text-center img-fluid" width="50%" height="50%">	
-		</div>
-
-		<div class="col p-3">
-			<div class="border border-3 p-3">
-				<h5 class="text-center">Cost-Effective Method for Polarization Characterization</h5>
-				<p>
-					In this project, I explored innovative, budget-friendly methods in polarimetry—an optics branch crucial for analyzing light's 
-					polarization properties. Utilizing a novel setup involving a CMOS sensor-equipped polarimetry camera and various 
-					optical elements, I successfully characterized the linear polarization states of light, integrating data 
-					processing techniques in NumPy and Matplotlib to calculate and visualize Stokes parameters. This study significantly 
-					advances polarimetry by offering a less costly, power-efficient alternative suitable for small-scale space missions 
-					and beyond. The promising results underscore the potential of these techniques to make sophisticated polarization 
-					analysis more accessible, setting the stage for future work to extend these methods to characterize circular and 
-					elliptical polarization states.
-				</p>
-
-				<ul class="mb-4">
-					<li><b>Skills:</b> Raspberry Pi, Camera Communication, Data Analysis, Experimental Design</li>
-				</ul>
-				<p class="blockquote-footer">Advised by Dr. Jess Johnson & Dr. Ewan Douglas</p>
-
-				<div>
-				<a href="files/TIMESTEP_Poster_DiegoTorres.pdf" download="trial.pdf">
-				<button type="button" class="btn btn-dark mt-2">Poster</button>
-				</a>
-				<a href="files/DiegoTorres_PolProject.pdf" download="trial.pdf">
-				<button type="button" class="btn btn-dark mt-2">Report</button>
-				</a>
-				</div>
-			</div>
-		<div class="col p-3">
-			
-			<img src="images/polarization_project_setup.jpg" class="mx-auto d-block text-center img-fluid" width="50%" height="50%">	
-		</div>
-		</div>
-
-	</div>
-</div>
-
-<!-- Contact -->
-
-<div class="container" id="contact">
-    <h2>Contact Me</h2>
-    <p>If you have any questions or would like to discuss professional opportunities, please don't hesitate to reach out.</p>
-	<ul>
-        <li>Email: <a href="maibuttlto:dtorresb@arizona.edu" title="E-mail">dtorresb@arizona.edu</a></li>
-        <li>Phone: +1 520-304-1789</li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/diego-torres-1596591aa/" title="LinkedIn">Diego Torres</a></li>
-        <li>GitHub: <a href="https://github.com/diegotorresb" title="GitHub">diegotorresb</a></li>
+    <!-- Projects -->
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <h3>FMCW LiDAR Metrology System</h3>
+        <p>As an R&D intern, I led a testing and design project of a new metrology tool using an accurate FMCW LiDAR for rapid-scanning methods on large radio dishes for the Next Generation Very Large Array (ngVLA) radio telescopes. This project, if proven successful, could advance to a SBIR Phase II for further development. I worked on pushing the sensor's limits and designing a complete system with dynamic focus and beam steering.</p>
+        <img src="images/lidar.jpg" alt="LiDAR Metrology System" style="display: block; margin: auto; width: 35%; height: auto;">
+        <p><b>Skills:</b> Optical Systems, Zemax, Scripting, Data Analysis</p>
+        <p class="blockquote-footer">Supervised by Dr. Joel Berkson</p>
+      </li>
+      <li>
+        <h3>Simulation and Modeling of Guided Mode Resonance Device</h3>
+        <p>This academic year, I am undertaking an honors thesis project focusing on enhancing the precision and sensitivity of rotation sensors through innovative use of silicon nitride-based GMR devices. The project involves rigorous design, simulation, and modeling of these devices to detect rotational movements with high accuracy, which is crucial for applications in nanomechanical systems. Expected to culminate next spring, this project aims to push the boundaries of current capabilities in rotation sensing.</p>
+        <img src="images/gmr_schematics.png" alt="GMR Device Schematic" style="display: block; margin: auto; width: 35%; height: auto;">
+        <p class="blockquote-footer">Advised by Dr. Dalziel Wilson & Dr. Mohamed ElKabbash</p>
+      </li>
+      <li>
+        <h3>Radio Telescope Manufacturing</h3>
+        <p>As part of a collaborative team, I contributed to constructing a radio telescope, focusing on precision engineering to support astronomical research. My responsibilities included adjusting molds to sub-40 micron accuracy, analyzing thermoforming processes with MATLAB for optimized shaping of aluminum panels, and advancing an automation project integrating a PID-controlled DC motor for precise mold adjustments. This work demonstrated significant potential for advancements in radio astronomy infrastructure.</p>
+        <img src="images/port_w_panel.png" alt="Radio Telescope Manufacturing" style="display: block; margin: auto; width: 50%; height: auto;">
+        <p><b>Skills:</b> CAD, MATLAB, Control Systems, Arduino</p>
+        <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12677/126770J/Radio-telescope-manufacturing-with-adaptive-aluminum-thermoforming-and-fringe-projection/10.1117/12.2676306.short">SPIE Presentation</a>
+        <p class="blockquote-footer">Advised by Dr. Justin Hyatt & Dr. Daewook Kim</p>
+      </li>
+      <li>
+        <h3>Cost-Effective Method for Polarization Characterization</h3>
+        <p>In this project, I explored innovative, budget-friendly methods in polarimetry, an optics branch crucial for analyzing light's polarization properties. Utilizing a setup with a CMOS sensor-equipped polarimetry camera and various optical elements, I successfully characterized linear polarization states of light, integrating data processing techniques in NumPy and Matplotlib to calculate and visualize Stokes parameters. This study advances polarimetry by offering a low-cost, power-efficient alternative suitable for small-scale space missions.</p>
+        <img src="images/polarization_project_setup.jpg" alt="Polarization Project Setup" style="display: block; margin: auto; width: 50%; height: auto;">
+        <p><b>Skills:</b> Raspberry Pi, Camera Communication, Data Analysis, Experimental Design</p>
+        <a href="files/TIMESTEP_Poster_DiegoTorres.pdf">Poster</a> |
+        <a href="files/DiegoTorres_PolProject.pdf">Report</a>
+        <p class="blockquote-footer">Advised by Dr. Jess Johnson & Dr. Ewan Douglas</p>
+      </li>
     </ul>
-    <a href="files/DiegoTorres_Resume_Fall24.pdf" download="trial.pdf">Download My Resume (Fall '24)</a> 
-</div>
 
-
-
+    <!-- Contact -->
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:dtorresb@arizona.edu">dtorresb@arizona.edu</a></p>
+    <p>Phone: +1 520-304-1789</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/diego-torres-1596591aa/">Diego Torres</a></p>
+    <p>GitHub: <a href="https://github.com/diegotorresb">diegotorresb</a></p>
+    <a href="files/DiegoTorres_Resume_Fall24.pdf">Download My Resume (Fall '24)</a>
   </body>
-
 </html>
